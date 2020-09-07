@@ -1,0 +1,144 @@
+body{
+  background-color: rgb(222, 250, 233);
+  margin: 0;
+  font-family: serif;
+}
+
+#cartesianPlane{
+top:20px;
+left: 20px;
+width:300px;
+height: 300px;
+}
+
+canvas{
+  position: fixed;
+  background-color: white;
+  padding: 0;
+  border: 3px solid  green;
+}
+
+#graph{
+top:20px;
+left: 340px;
+width:600px;
+height: 300px;
+}
+
+
+
+#submitAns{
+  position: fixed;
+top:380px;
+width:930px;
+height: 50px;
+font-size: 2em;
+font-weight: bold;
+
+left: 20px;
+color: black;
+
+background-color: rgb(208,240, 192);
+border: 2px solid black;
+}
+
+#gSelHolder{
+  position: fixed;
+top:330px;
+left: 667px;
+}
+
+#pointerButtonHolder{
+  position: fixed;
+  height:40px;
+
+  width: 304px;
+  top:330px;
+  left:20px;
+}
+
+#sliderButtonHolder{
+  position: fixed;
+  height:40px;
+  width:304px;
+top:330px;
+left: 340px;
+}
+
+button.red{
+  width:73px;
+  height: 20px;
+  margin: auto;
+  margin-bottom: 5px;
+  color: red;
+  font-weight: bold;
+  border: 2px solid red;
+  background-color:rgb(255, 204, 204);
+}
+
+button.blue{
+  width:73px;
+  margin: auto;
+  margin-bottom: 5px;
+
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+  background-color:rgb(153, 204, 255);
+}
+
+button.blueMove{
+  width:69px;
+  /* margin-left:4px; */
+  margin: auto;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+  background-color:rgb(153, 204, 255);
+}
+
+button.gSel{
+  width:90px;
+  margin: auto;
+  background-color: 	#FFA07A;
+  font-weight: bold;
+  border: 2px solid #FF4500;
+}
+
+#ali{
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 140px;
+}
+
+#bubble{
+  position:fixed;
+  right:00px;
+  bottom:205px;
+  width:270px;
+  height: 330px;
+}
+#msgHolder{
+  position:absolute;
+
+  top: 10px;
+  left: 20px;
+
+  /* right:00px;
+  bottom:440px; */
+
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: serif;
+  width: 230px;
+
+}
+
+.container {
+  position: fixed;
+  right:00px;
+  bottom:205px;
+  width:270px;
+  height: 330px;
+}
